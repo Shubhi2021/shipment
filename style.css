@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bg
+{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+#tmid
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 550px;
+}
+
+#mid{
+    display: flex;
+
+}
+
+#midleft{
+    width: 40%;
+    height: 50%;
+    background-color: red;
+}
+
+#midright{
+    width: 50%;
+    height: 60%;
+    position: relative;
+}
+#tlinks
+{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+#trkship{
+    width: 60%;
+    height: 30px;
+    background-color: grey;
+}
